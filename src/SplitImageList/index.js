@@ -8,8 +8,15 @@ class SplitImageList extends Component {
   }
 
   renderItem = (item, index) => {
-    const { count, data } = this.props
-    return <SplitImage source={item.image} animatedValue={this.state.animatedValue} count={count} index={index} totalItems={data.length}>
+    const { count, data, imageWidth, imageHeight } = this.props
+    return <SplitImage
+      width={imageWidth}
+      height={imageHeight}
+      source={item.image}
+      animatedValue={this.state.animatedValue}
+      count={count}
+      index={index}
+      totalItems={data.length}>
       { this.renderChildren(item, index) }
     </SplitImage>
   }
