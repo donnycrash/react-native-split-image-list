@@ -1,0 +1,35 @@
+{
+  "name": "react-native-split-image-list",
+  "version": "1.0.0",
+  "description": "Make your image lists more interactive or at least more visually appealing with this beautiful split image list.",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
+    "prepublish": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "image",
+    "list",
+    "effect",
+    "split"
+  ],
+  "author": "Donovan Crewe",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/donnycrash/react-native-split-image-list.git"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-native": "^0.55.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
