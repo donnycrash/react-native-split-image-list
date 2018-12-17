@@ -1,6 +1,7 @@
 # react-native-split-image-list
 
 Make your image lists more interactive or at least more visually appealing with this beautiful split image list.
+![Demo image](https://user-images.githubusercontent.com/7405682/50089427-7eb37a80-020e-11e9-8968-f8f0552ec288.gif)
 
 ## Installation
 
