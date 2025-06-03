@@ -11,14 +11,14 @@
     "parser": "babel-eslint"
   },
   "dependencies": {
-    "expo": "^31.0.2",
-    "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
-    "react-native-split-image-list": "^1.0.0"
+    "expo": "^49.0.0",
+    "react": "18.2.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-49.0.0.tar.gz",
+    "react-native-split-image-list": "file:../"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "babel-preset-expo": "^5.0.0",
+    "babel-preset-expo": "^9.9.0",
     "standard": "^12.0.1"
   },
   "private": true
